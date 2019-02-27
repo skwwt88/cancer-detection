@@ -8,9 +8,9 @@ import random
 from sklearn.utils import shuffle
 from tqdm import tqdm_notebook
 
-data = pd.read_csv('/kaggle/input/train_labels.csv')
-train_path = '/kaggle/input/train/'
-test_path = '/kaggle/input/test/'
+data = pd.read_csv('../input/histopathologic-cancer-detection/train_labels.csv')
+train_path = '../input/histopathologic-cancer-detection/train/'
+test_path = '../input/histopathologic-cancer-detection/test/'
 # quick look at the label stats
 data['label'].value_counts()
 
